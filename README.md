@@ -40,7 +40,7 @@ A UIPath RPA project that automates banking flows on UIBank, a demo banking web 
 
 ## Known Issues
 
-UIBank is a demo app and behaves inconsistently at times. For example, a newly created account sometimes does not appear in the account list. See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for the full list and how the workflows handle each case (retry/polling, capturing confirmation data, and clear exceptions).
+UIBank is a demo app and behaves inconsistently at times. For example, a newly created account sometimes does not appear in the account list. See [KNOWN_ISSUES.md](https://github.com/syolandita/Portfolio_Automation-Using-UIPath/blob/main/Known_Issues.md) for the full list and how the workflows handle each case (retry/polling, capturing confirmation data, and clear exceptions).
 
 ## Project Structure
 
