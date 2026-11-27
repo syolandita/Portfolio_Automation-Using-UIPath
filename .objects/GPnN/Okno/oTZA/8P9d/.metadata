@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_Apply Loan",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "8P9dFJuBS0aiS4yh1z0Rzw",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/8P9dFJuBS0aiS4yh1z0Rzw",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/oTZAGF_49EivH3cPSf0y7w",
+  "Created": "2026-11-25T07:12:16.026064Z",
+  "Updated": "2026-11-25T07:12:39.4752944Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

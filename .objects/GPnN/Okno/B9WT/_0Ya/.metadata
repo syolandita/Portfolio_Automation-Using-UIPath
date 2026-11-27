@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_TypeAcc",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "_0YagnlvZECNChuLeL-f1w",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/_0YagnlvZECNChuLeL-f1w",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/B9WTVHk_5Ea2ruonSvNJLw",
+  "Created": "2026-11-25T07:26:15.5473496Z",
+  "Updated": "2026-11-25T07:30:27.1040444Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

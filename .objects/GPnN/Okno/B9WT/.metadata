@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Apply New Acc",
+  "Type": "Screen",
+  "Id": "B9WTVHk_5Ea2ruonSvNJLw",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/B9WTVHk_5Ea2ruonSvNJLw",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/OknooYzMbE-0cHgQneGJJw",
+  "Created": "2026-11-25T07:14:42.8699219Z",
+  "Updated": "2026-11-25T07:15:42.183833Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aSurwVyzPUSNNIoZ8YLqVQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/welcome" DesignTimeRectangle="380, 234, 607, 389" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='MAT-DIALOG-CONTENT' /&gt;" Guid="7d604f80-e8a0-4f2b-8aa0-c2c6d30d7aca" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Welcome' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6eae167b6f5dff37db9088289d028208.jpg" xmlns="">0knBVMgJlKUOp_kYmkwqQcw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

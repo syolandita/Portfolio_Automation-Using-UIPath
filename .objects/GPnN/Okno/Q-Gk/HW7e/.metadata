@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_BackLoanCenter",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HW7e1NLqNEusSpCXK81cWA",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/HW7e1NLqNEusSpCXK81cWA",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T02:45:58.4069739Z",
+  "Updated": "2026-11-26T02:46:15.1924889Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

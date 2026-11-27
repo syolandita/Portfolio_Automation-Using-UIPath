@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_DownloadTransactions",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "FMQG5Xg8Z0W0gfer6BP-Gw",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/FMQG5Xg8Z0W0gfer6BP-Gw",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA",
+  "Created": "2026-11-25T07:44:45.3362016Z",
+  "Updated": "2026-11-25T07:45:08.003104Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

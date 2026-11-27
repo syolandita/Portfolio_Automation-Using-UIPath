@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_Loan Status",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "EGgLJyNiaUCt5EOX74ePqg",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/EGgLJyNiaUCt5EOX74ePqg",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/oTZAGF_49EivH3cPSf0y7w",
+  "Created": "2026-11-25T07:12:54.3725706Z",
+  "Updated": "2026-11-25T07:13:09.4681984Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

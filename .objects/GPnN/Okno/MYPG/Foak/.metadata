@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_TransferMoney",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "FoakTyOVDUePR4uMv2Un7g",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/FoakTyOVDUePR4uMv2Un7g",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA",
+  "Created": "2026-11-25T07:43:51.6507026Z",
+  "Updated": "2026-11-25T07:44:13.298856Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

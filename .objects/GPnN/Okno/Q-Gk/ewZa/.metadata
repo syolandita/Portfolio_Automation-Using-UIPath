@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_RetriveLoanDetails",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "ewZaIj14lEmkkaU9Jzs4FQ",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/ewZaIj14lEmkkaU9Jzs4FQ",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T03:31:06.264757Z",
+  "Updated": "2026-11-26T03:31:29.9933718Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

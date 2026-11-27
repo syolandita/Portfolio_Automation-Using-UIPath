@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_ApplyLoan",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "PuAPVvZZDkKObBZ0EIpMig",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/PuAPVvZZDkKObBZ0EIpMig",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T01:53:25.4325973Z",
+  "Updated": "2026-11-26T01:53:41.8090027Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

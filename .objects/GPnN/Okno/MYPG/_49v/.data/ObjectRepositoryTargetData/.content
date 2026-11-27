@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="78KeIZ6VmU-xW5briNNcxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts/transfer-money" DesignTimeRectangle="812, 480, 105, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Cancel' parentid='exampleModal' tag='BUTTON' /&gt;" Guid="6b8818a4-e078-4f51-b374-2150c99e1927" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d6786a7b248adbd0f4c2ec3c1be2f7d0.jpg" xmlns="">0qnWYNiPv00KltKTkHpy_6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

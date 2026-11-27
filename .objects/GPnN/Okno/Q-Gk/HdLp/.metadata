@@ -1,0 +1,16 @@
+﻿{
+  "Name": "txt_LoanID",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HdLpFeAreU2UoIX1S8jNlA",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/HdLpFeAreU2UoIX1S8jNlA",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T02:43:12.7549325Z",
+  "Updated": "2026-11-26T02:43:41.8765043Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

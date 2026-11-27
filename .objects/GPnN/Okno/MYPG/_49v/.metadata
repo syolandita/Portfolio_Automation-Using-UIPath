@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_CancelTransfer",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "_49vQ3xvdUWY1iR3Cxa-yg",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/_49vQ3xvdUWY1iR3Cxa-yg",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA",
+  "Created": "2026-11-25T08:07:22.2796887Z",
+  "Updated": "2026-11-25T08:07:46.7346592Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

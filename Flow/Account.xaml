@@ -1,0 +1,334 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Account" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="In_Transaction" Type="InArgument(x:String)" />
+    <x:Property Name="In_FromTransfer" Type="InArgument(x:String)" />
+    <x:Property Name="In_ToTransfer" Type="InArgument(x:String)" />
+    <x:Property Name="In_AmountTransfer" Type="InArgument(x:String)" />
+    <x:Property Name="In_FlowAfter" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:Account.In_Transaction>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Account.In_Transaction>
+  <this:Account.In_FromTransfer>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Account.In_FromTransfer>
+  <this:Account.In_ToTransfer>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Account.In_ToTransfer>
+  <this:Account.In_AmountTransfer>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Account.In_AmountTransfer>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Account_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Account" sap:VirtualizedContainerService.HintSize="985,3035" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="650,3012" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Account" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="616,2929" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,2734" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[In_Transaction]" sap:VirtualizedContainerService.HintSize="488,2674" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                <Switch.Default>
+                  <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="486,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </Switch.Default>
+                <Sequence x:Key="DISPUTE" DisplayName="Case" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_DisputeTransaction'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/account-details/6b068f61066a1f5fc9e6ee39/100/lala" ContentHash="Gb2HEnO0fUeWaJDLJOd4xw" DesignTimeRectangle="285, 366, 160, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='disputeTransaction' tag='A' /&gt;" Guid="50ac14b1-3cb8-403e-a345-1922e1b4c394" InformativeScreenshot="a7b790ea2b5cf161c2df54dc66613841.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/MP3XPPRnl0ip_iNdn9QdyA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+                <Sequence x:Key="TRANSFER" DisplayName="Case" sap:VirtualizedContainerService.HintSize="486,1838" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_TransferMoney'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/account-details/6b068f61066a1f5fc9e6ee39/100/lala" ContentHash="vvFb5yY7XUWG2vTQnHAXUg" DesignTimeRectangle="471, 366, 123, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='transferMoney' tag='A' /&gt;" Guid="c5bd15e2-e91c-4f3a-8119-c19bde5bf53c" InformativeScreenshot="b0e72de5a36054938d6cc9c518a9de2f.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/FoakTyOVDUePR4uMv2Un7g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'fld_FromTransfer'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Text="[In_FromTransfer]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/transfer-money" ContentHash="stO9sOaFoES3asrebgD9pA" DesignTimeRectangle="446, 344, 475, 55" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='fromAccount' tag='SELECT' type='' class='form-control uibank-input ng-untouched ng-pristine ng-valid' aaname='From' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a804d255-9102-4d4d-9ce4-4f809344bca6" InformativeScreenshot="b699e568b129f6449d165ac261aeb4c4.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/_egmIuje9kuhK6FUlFwp_Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="446, 325, 29, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='uibank-label' aaname='From' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='From' /&gt;" Guid="73ea13e5-3614-45f9-abf2-3fb9397b3957" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'fld_ToTransfer'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Text="[In_ToTransfer]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/transfer-money" ContentHash="65QePAAk4kGN9D7bGDkfbg" DesignTimeRectangle="446, 423, 475, 54" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='toAccount' tag='SELECT' type='' class='form-control uibank-input ng-untouched ng-pristine ng-valid' aaname='To' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="050ecee0-e701-4fab-b2cd-264afa6d9853" InformativeScreenshot="d7f5286fad3008721db521b2bec07301.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/Di3lFS-p_UajTVwefEASMg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="446, 404, 14, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='To' tag='LABEL' type='' class='uibank-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='To' /&gt;" Guid="c635a268-627d-4777-8362-91ee58ea890e" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'fld_Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Text="[In_AmountTransfer]" Version="V5">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/transfer-money" ContentHash="SdQ3XyMzuUayncd0NGNVqw" DesignTimeRectangle="446, 501, 475, 55" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='amountTransferred' tag='INPUT' /&gt;" Guid="bf38dc87-edc3-4d4b-acaa-b363ac1b1399" InformativeScreenshot="4d23959c9710e11a20f53616499e566c.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/V4Za2BvcVkmjU74zP4BfdA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_Review'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/transfer-money" ContentHash="1ytyFPNH9ESVAqnUBoeFtQ" DesignTimeRectangle="627, 588, 112, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Review' tag='BUTTON' /&gt;" Guid="354733ea-a129-4970-affe-217cb681b4c5" InformativeScreenshot="16cbaa8300894942a03b287ce7d4e488.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/fKQ0hxQBbUe9lsK83NJ8fg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <If Condition="[In_FlowAfter = &quot;TRANSFER&quot;]" sap:VirtualizedContainerService.HintSize="452,652" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_ConfirmTransfer'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/transfer-money" ContentHash="F9fNxnwtTESdmbRXTtzz_w" DesignTimeRectangle="599, 480, 205, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Confirm Transfer →' parentid='exampleModal' tag='BUTTON' type='button' class='btn btn-orange' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Confirm Transfer →' /&gt;" Guid="21f4e42d-9906-4953-b1ce-a8e05e81e128" InformativeScreenshot="c6812527905a0d9586ddb6b7816916f3.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/yDIWoBKhVE6Nrt6Fr33kLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="765, 493, 16, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='→' parentid='exampleModal' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='→' /&gt;" Guid="ced99932-3a99-4916-8250-385baa283344" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_CancelTransfer'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/transfer-money" ContentHash="78KeIZ6VmU-xW5briNNcxg" DesignTimeRectangle="812, 480, 105, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Cancel' parentid='exampleModal' tag='BUTTON' /&gt;" Guid="6b8818a4-e078-4f51-b374-2150c99e1927" InformativeScreenshot="d6786a7b248adbd0f4c2ec3c1be2f7d0.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/_49vQ3xvdUWY1iR3Cxa-yg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+                <Sequence x:Key="DOWNLOAD TRANSACTION" DisplayName="Case" sap:VirtualizedContainerService.HintSize="486,25" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_DownloadStatement'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/account-details/6b068f61066a1f5fc9e6ee39/100/lala" ContentHash="dpVAFIlrukCN7migWASoeA" DesignTimeRectangle="620, 366, 169, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='downloadStatements' tag='A' /&gt;" Guid="bb51ae26-1264-4d26-b5a7-ba07ae0988b3" InformativeScreenshot="bc67ecdfa30881acbc38b510dff9b5bd.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/vU3aEP25EE-wKsA0HvOssg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Shortcuts="[d(hk)][d(ctrl)]w[u(ctrl)][u(hk)]" Version="V5" />
+                </Sequence>
+                <Sequence x:Key="DOWNLOAD S" DisplayName="Case" sap:VirtualizedContainerService.HintSize="486,502" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'btn_DownloadStatement'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="uibank.uipath.com/accounts/account-details/6b068f61066a1f5fc9e6ee39/100/lala" ContentHash="dpVAFIlrukCN7migWASoeA" DesignTimeRectangle="620, 366, 169, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='downloadStatements' tag='A' /&gt;" Guid="bb51ae26-1264-4d26-b5a7-ba07ae0988b3" InformativeScreenshot="bc67ecdfa30881acbc38b510dff9b5bd.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/vU3aEP25EE-wKsA0HvOssg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,248" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" InteractionMode="HardwareEvents" ScopeIdentifier="bde34470-600f-45fa-91b4-6d4650e6363c" Shortcuts="[d(hk)][k(Enter)][u(hk)]" Version="V5" />
+                </Sequence>
+              </Switch>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="QT1aNm_UVESKBfjsMqmz7g" IconBase64="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" InformativeScreenshot="5e410b9e05a67b3f6357b9aa6690aab8.jpg" Reference="JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA" Selector="&lt;html app='chrome.exe' title='UiBank-Details' /&gt;" Url="*" Version="V3">
+            <uix:TargetApp.SapInfo>
+              <uix:SAPElementInfo IsSapSubsystem="False" WebAutomationFramework="Default" />
+            </uix:TargetApp.SapInfo>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

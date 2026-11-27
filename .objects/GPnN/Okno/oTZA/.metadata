@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Dashoard",
+  "Type": "Screen",
+  "Id": "oTZAGF_49EivH3cPSf0y7w",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/oTZAGF_49EivH3cPSf0y7w",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/OknooYzMbE-0cHgQneGJJw",
+  "Created": "2026-11-25T06:58:26.1830338Z",
+  "Updated": "2026-11-25T06:59:25.2212594Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

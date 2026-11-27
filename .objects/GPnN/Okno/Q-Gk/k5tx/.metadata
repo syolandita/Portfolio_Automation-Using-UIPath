@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_AlreadyHaveLoan",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "k5txUnzFj0eFbEAPywEhuw",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/k5txUnzFj0eFbEAPywEhuw",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T03:25:29.7740364Z",
+  "Updated": "2026-11-26T03:25:47.8081867Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

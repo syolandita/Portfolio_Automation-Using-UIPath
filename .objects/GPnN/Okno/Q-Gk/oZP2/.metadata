@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_Income",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "oZP2vHzVWEa5L0bEn4cGNg",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/oZP2vHzVWEa5L0bEn4cGNg",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T02:39:10.7864717Z",
+  "Updated": "2026-11-26T02:39:23.8403611Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

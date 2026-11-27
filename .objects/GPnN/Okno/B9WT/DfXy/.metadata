@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_Username",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "DfXySeh9TkS-ez64h_uCBg",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/DfXySeh9TkS-ez64h_uCBg",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/B9WTVHk_5Ea2ruonSvNJLw",
+  "Created": "2026-11-25T07:25:07.8003502Z",
+  "Updated": "2026-11-25T07:25:23.2093428Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

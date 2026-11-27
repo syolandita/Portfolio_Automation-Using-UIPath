@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chrome UiBank-Login",
+  "Type": "Screen",
+  "Id": "4cytLTrMMUyGFRrEF8umHQ",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/4cytLTrMMUyGFRrEF8umHQ",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/OknooYzMbE-0cHgQneGJJw",
+  "Created": "2026-11-25T06:45:11.5688587Z",
+  "Updated": "2026-11-25T06:48:32.4789198Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

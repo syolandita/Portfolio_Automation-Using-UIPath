@@ -1,0 +1,16 @@
+﻿{
+  "Name": "txt_Amount",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "k9D4aEToh0i2lMYVmLnnYQ",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/k9D4aEToh0i2lMYVmLnnYQ",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T03:44:26.1635332Z",
+  "Updated": "2026-11-26T03:45:02.1041349Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

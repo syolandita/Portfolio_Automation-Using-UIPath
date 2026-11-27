@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_FromTransfer",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "_egmIuje9kuhK6FUlFwp_Q",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/_egmIuje9kuhK6FUlFwp_Q",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA",
+  "Created": "2026-11-25T07:53:34.7578334Z",
+  "Updated": "2026-11-25T07:54:13.2073151Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

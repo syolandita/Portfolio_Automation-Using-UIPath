@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_LoanID",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "rO6WYxoiY0-iadFgavLGww",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/rO6WYxoiY0-iadFgavLGww",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T03:26:16.2975667Z",
+  "Updated": "2026-11-26T03:26:26.6894073Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

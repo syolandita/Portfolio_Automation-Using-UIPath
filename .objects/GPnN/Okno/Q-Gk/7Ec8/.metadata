@@ -1,0 +1,16 @@
+﻿{
+  "Name": "txt_EmailLoan",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "7Ec81eLcOE-vXxLYDnsd8A",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/7Ec81eLcOE-vXxLYDnsd8A",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T03:36:11.5416358Z",
+  "Updated": "2026-11-26T03:36:45.0949072Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

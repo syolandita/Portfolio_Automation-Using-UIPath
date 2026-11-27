@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_Amount",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "V4Za2BvcVkmjU74zP4BfdA",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/V4Za2BvcVkmjU74zP4BfdA",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA",
+  "Created": "2026-11-25T07:58:39.3237963Z",
+  "Updated": "2026-11-25T07:59:12.5121241Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

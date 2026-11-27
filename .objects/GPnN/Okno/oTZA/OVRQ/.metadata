@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_Transfer",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "OVRQx3PJUUWXPRYcJcuyPg",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/OVRQx3PJUUWXPRYcJcuyPg",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/oTZAGF_49EivH3cPSf0y7w",
+  "Created": "2026-11-25T07:11:18.5741754Z",
+  "Updated": "2026-11-25T07:11:44.6902013Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

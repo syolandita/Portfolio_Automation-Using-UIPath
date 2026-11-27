@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_DisputeTransaction",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "MP3XPPRnl0ip_iNdn9QdyA",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/MP3XPPRnl0ip_iNdn9QdyA",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/MYPG-Kqj20CYWUQKOoS3eA",
+  "Created": "2026-11-25T07:43:14.8544874Z",
+  "Updated": "2026-11-25T07:43:32.4217296Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

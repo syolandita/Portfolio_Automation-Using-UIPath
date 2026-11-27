@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_ViewAcc",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "7KDpjO_xgEytogG7SzVYtQ",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/7KDpjO_xgEytogG7SzVYtQ",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/B9WTVHk_5Ea2ruonSvNJLw",
+  "Created": "2026-11-25T07:34:21.9411788Z",
+  "Updated": "2026-11-25T07:34:31.7120884Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

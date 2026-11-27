@@ -1,0 +1,16 @@
+﻿{
+  "Name": "btn_AccName",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "twuSnEpop0iCCdgT6AtdTw",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/twuSnEpop0iCCdgT6AtdTw",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/oTZAGF_49EivH3cPSf0y7w",
+  "Created": "2026-11-25T07:39:00.8828304Z",
+  "Updated": "2026-11-25T07:40:22.4695186Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "fld_EmailAdd",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "5HfxPOBU3E-XQ_EMy4Hj-A",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/5HfxPOBU3E-XQ_EMy4Hj-A",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/Q-Gk4IH8fky9brz5U1G2kA",
+  "Created": "2026-11-26T02:22:47.7513737Z",
+  "Updated": "2026-11-26T02:23:07.936568Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

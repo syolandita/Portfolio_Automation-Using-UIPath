@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SdQ3XyMzuUayncd0NGNVqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/accounts/transfer-money" DesignTimeRectangle="446, 501, 475, 55" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='amountTransferred' tag='INPUT' /&gt;" Guid="bf38dc87-edc3-4d4b-acaa-b363ac1b1399" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Transfer money' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4d23959c9710e11a20f53616499e566c.jpg" xmlns="">0nGt4T_gDdUyHca3_djs4zQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

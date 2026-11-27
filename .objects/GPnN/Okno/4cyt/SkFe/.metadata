@@ -1,0 +1,16 @@
+﻿{
+  "Name": "popup_Notice",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "SkFedCex2UKt6MK79kAMQg",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/SkFedCex2UKt6MK79kAMQg",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/4cytLTrMMUyGFRrEF8umHQ",
+  "Created": "2026-11-25T06:54:41.3521126Z",
+  "Updated": "2026-11-25T06:55:00.0946396Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

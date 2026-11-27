@@ -1,0 +1,17 @@
+﻿{
+  "Name": "fld_Username",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "AqwCw8UCcEOQFd4yFJMJsA",
+  "Reference": "JrOx5ViO_UGVcvSR4vXmgQ/AqwCw8UCcEOQFd4yFJMJsA",
+  "ParentRef": "JrOx5ViO_UGVcvSR4vXmgQ/4cytLTrMMUyGFRrEF8umHQ",
+  "Created": "2026-11-25T06:47:19.3951222Z",
+  "Updated": "2026-11-25T06:48:44.1653261Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
